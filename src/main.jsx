@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <MoviePreview />
+      <MoviePreview/>
     </ThemeProvider>
   </React.StrictMode>
 )

@@ -6,6 +6,8 @@ export const Container = styled.div`
 
   a {
     color: ${({ theme }) => theme.COLORS.PINK};
+    display: flex;
+    align-items: center;
   }
 
   > .movieAndStars {
@@ -18,7 +20,7 @@ export const Container = styled.div`
       color: ${({ theme }) => theme.COLORS.WHITE};
       font-size: 3.6rem;
       line-height: 4.7rem;
-      margin-right: 1.9rem;
+      padding-right: 1.9rem;
     }
 
     svg {
@@ -68,4 +70,13 @@ export const Container = styled.div`
       }
     }
 }
+`
+
+export const Sinopse = styled.p`
+  margin: 0 12.3rem;
+  color: ${({ theme }) => theme.COLORS.WHITE};
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  text-align: justify;
+
 `

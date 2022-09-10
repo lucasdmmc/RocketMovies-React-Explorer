@@ -17,7 +17,10 @@ export const Container = styled.header`
   }
 `
 
-export const Profile = styled.div`
+export const Profile = styled.button`  
+  border: none;
+  background: none;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +34,7 @@ export const Profile = styled.div`
     
     strong {
       max-width: 300px;
+      font-size: 1.5rem;
       line-height: 1.8rem;
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
@@ -50,5 +54,5 @@ export const Profile = styled.div`
       height: 6.4rem;
       border-radius: 50%;
   }
-  }
+}
 `

@@ -20,6 +20,21 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
+  body::-webkit-scrollbar {
+    width: 0.8rem;
+    
+  }
+
+  body::-webkit-scrollbar-track {
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+    
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: ${({ theme }) => theme.COLORS.PINK};
+    border-radius: 8px;
+  }
+
   a {
     text-decoration: none;
   }
