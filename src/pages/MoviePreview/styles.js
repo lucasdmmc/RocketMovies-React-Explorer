@@ -8,6 +8,7 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.PINK};
     display: flex;
     align-items: center;
+    gap: .8rem;
   }
 
   > .movieAndStars {
@@ -38,6 +39,7 @@ export const Container = styled.div`
     align-items: center;
     gap: .8rem;
     margin-top: 2.4rem;
+    margin-bottom: 4rem;
 
     .img-name {
       display: flex;

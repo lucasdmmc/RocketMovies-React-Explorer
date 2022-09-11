@@ -1,8 +1,9 @@
 import { Container } from "./styles"
 import { Header } from "../../components/Header"
-import { Button } from "../../components/Button"
+import { Button} from "../../components/Button"
 import { Tag } from "../../components/Tag"
 import { FiPlus, FiStar } from "react-icons/fi"
+import { Link } from "react-router-dom"
 
 export function Home() {
   return(
@@ -13,12 +14,16 @@ export function Home() {
         <h2>Meus Filmes</h2>
 
         <div className="button">
-          <Button title="Adicionar Filme">
-            {FiPlus}
-          </Button>
+          <Link to="/createmovie">
+            <Button title="Adicionar Filme" icon={FiPlus}>
+
+            </Button>
+          </Link>
         </div>
       </header>
+
       <main>
+      <Link to="/moviepreview">
         <h2>Interestellar</h2>
 
         <FiStar />
@@ -34,6 +39,7 @@ export function Home() {
         <Tag title="Drama"/>
         <Tag title="Família" />
         
+       </Link>
       </main>
     </Container>
    </> 

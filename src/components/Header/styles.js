@@ -6,6 +6,7 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-around;
   gap: 6.4rem;
+  overflow: hidden;
 
   border-bottom: 1px solid;
   border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};

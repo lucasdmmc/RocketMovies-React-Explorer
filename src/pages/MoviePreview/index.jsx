@@ -2,16 +2,18 @@ import { Container, Sinopse } from "./styles"
 import { Header } from '../../components/Header'
 import { Tag } from "../../components/Tag"
 import { FiArrowLeft, FiStar, FiClock } from "react-icons/fi"
+import { Link } from "react-router-dom"
 
 export function MoviePreview() {
   return (
     <>
     <Header />
     <Container>
-      <a href="#">
+      <Link to="/">
         <FiArrowLeft />
         Voltar
-      </a>
+      </Link>
+
 
       <div className="movieAndStars">
         <h2>Interestellar</h2>

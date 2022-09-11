@@ -4,9 +4,8 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  background: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+  background: #262529;
 
-  margin-bottom: .8rem;
   border-radius: 1rem;
   
   

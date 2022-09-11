@@ -14,7 +14,12 @@ export const Container = styled.button`
   background-color: ${({ theme }) => theme.COLORS.PINK};
   color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
-  font-weight: 500;
+  font-weight: bold;
   font-size: 1.6rem;
   line-height: 2.1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
 `

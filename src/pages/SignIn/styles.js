@@ -12,6 +12,7 @@ export const Form = styled.form`
   width: 64rem;
   padding: 0 13.4rem;
   display: flex;
+  gap: .8rem;
   flex-direction: column;
 
   margin-top: 4.8rem;
