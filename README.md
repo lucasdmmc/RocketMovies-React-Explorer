@@ -1,7 +1,7 @@
 # RocketMovies-React-Explorer
 
 
-###Nesse projeto foi aplicado:
+### Nesse projeto foi aplicado:
 
 - Components
 - Propriedades
